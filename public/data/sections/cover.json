@@ -1,0 +1,463 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Adama CISSE!}}"
+            },
+            "es": {
+                "title_short": "¡Saludos!",
+                "title_short_nav": "Sobre mí",
+                "title_long_prefix": "Hola...",
+                "title_long": "Soy {{Adama CISSE!}}"
+            },
+            "fr": {
+                "title_short": "Salut !",
+                "title_short_nav": "À propos",
+                "title_long_prefix": "Salut...",
+                "title_long": "Je suis {{Adama CISSE !}}"
+            },
+            "ko": {
+                "title_short": "환영합니다!",
+                "title_short_nav": "소개",
+                "title_long_prefix": "안녕하세요...",
+                "title_long": "저는 {{Adama CISSE}}입니다!"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Béziers, FRANCE",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "adama359.cisse@gmail.com",
+                    "link": {
+                        "href": "mailto:adama359.cisse@gmail.com",
+                        "tooltipString": "email_me"
+                    },
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "adama359cisse-byte",
+                    "link": {
+                        "href": "https://github.com/adama359cisse-byte",
+                        "tooltipString": "see_on_github"
+                    },
+                    "faIcon": "fa-brands fa-github"
+                },
+                {
+                    "id": 4,
+                    "label": "+33 7 53 78 98 75",
+                    "link": {
+                        "href": "tel:+33753789875",
+                        "tooltipString": "call_me"
+                    },
+                    "faIcon": "fa-solid fa-phone"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {
+                    "title": "{{A little bit}} about me..."
+                },
+                "es": {
+                    "title": "{{Un poco}} sobre mí..."
+                },
+                "fr": {
+                    "title": "{{Un peu}} à propos de moi..."
+                },
+                "ko": {
+                    "title": "저에 {{대해 조금}}..."
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p>I am a {{Full Stack Developer}} currently in my [[3rd year of Computer Science studies]]. Passionate about creating efficient and elegant digital solutions, I combine technical expertise with a creative touch.</p><p>My journey as a student has allowed me to master both frontend and backend technologies, while also developing strong skills in [[UI/UX design]] and graphic arts. This multidisciplinary profile helps me build comprehensive user experiences from the ground up.</p><p>I'm always eager to learn and ready to contribute to [[innovative projects!]]</p>"
+                        },
+                        "es": {
+                            "text": "<p>Soy un {{Desarrollador Full Stack}} actualmente en mi [[3er año de estudios de Informática]]. Apasionado por crear soluciones digitales eficientes y elegantes, combino experiencia técnica con un toque creativo.</p><p>Mi trayectoria como estudiante me ha permitido dominar tecnologías frontend y backend, desarrollando también sólidas habilidades en [[diseño UI/UX]] y artes gráficas.</p><p>¡Siempre con ganas de aprender y listo para colaborar en [[proyectos innovadores!]]</p>"
+                        },
+                        "fr": {
+                            "text": "<p>Je suis un {{Développeur Full Stack}} actuellement en [[3ème année d'Informatique]]. Passionné par la création de solutions numériques efficaces et élégantes, je cherche à allier rigueur technique et créativité visuelle.</p><p>Mon parcours étudiant m'a permis de maîtriser les technologies frontend et backend, tout en développant de solides compétences en [[design UI/UX]] et en graphisme. Ce profil polyvalent me permet de concevoir des expériences utilisateur complètes et soignées.</p><p>Toujours curieux et en quête d'apprentissage, je suis prêt à mettre mon énergie au service de [[projets innovants !]]</p>"
+                        },
+                        "ko": {
+                            "text": "<p>저는 현재 [[컴퓨터 공학 3학년]]에 재학 중인 {{풀스택 개발자}}입니다. 효율적이고 우아한 디지털 솔루션을 만드는 것에 열정을 가지고 있으며, 기술적 전문성과 창의적인 감각을 결합하고 있습니다.</p><p>학업 과정을 통해 프론트엔드와 백엔드 기술을 익혔을 뿐만 아니라, [[UI/UX 디자인]] 및 그래픽 아트 분야에서도 뛰어난 역량을 키워왔습니다.</p><p>항상 배우고자 하는 열의를 가지고 있으며, [[혁신적인 프로젝트]]에 기여할 준비가 되어 있습니다!</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {
+                    "title": "Client {{testimonials}}"
+                },
+                "es": {
+                    "title": "Testimonios de {{clientes}}"
+                },
+                "fr": {
+                    "title": "Témoignages de {{clients}}"
+                },
+                "ko": {
+                    "title": "{{고객}} 추천사"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Thomas Durand",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "img": "images/pictures/testimonial-person-male-1.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Computer Science [[Classmate]]",
+                            "text": "Working with Adama on our group projects was a truly [[great experience]]. His outstanding programming skills and collaborative spirit always helped us achieve the best results."
+                        },
+                        "es": {
+                            "title": "Compañero de [[Informática]]",
+                            "text": "Trabajar con Adama en nuestros proyectos grupales fue una [[gran experiencia]]. Su habilidad para programar y su espíritu colaborativo siempre nos ayudaron a lograr los mejores resultados."
+                        },
+                        "fr": {
+                            "title": "Camarade en [[Informatique]]",
+                            "text": "Travailler avec Adama sur nos projets de groupe a été une [[excellente expérience]]. Ses compétences en programmation et son esprit d'équipe nous ont toujours permis d'obtenir les meilleurs résultats."
+                        },
+                        "ko": {
+                            "title": "컴퓨터 공학 [[기수 동료]]",
+                            "text": "그룹 프로젝트에서 Adama와 함께 일한 것은 정말 [[좋은 경험]]이었습니다. 그의 뛰어난 프로그래밍 실력과 협업 정신은 언제나 우리가 최고의 결과를 낼 수 있도록 도와주었습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Sophie Martin",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "img": "images/pictures/testimonial-person-female-1.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Project Partner at [[University]]",
+                            "text": "Having Adama in our development team was an invaluable asset. His [[problem-solving skills]] and dedication empowered us to tackle every academic challenge with confidence."
+                        },
+                        "es": {
+                            "title": "Compañera de [[Universidad]]",
+                            "text": "Tener a Adama en nuestro equipo de desarrollo fue un recurso invaluable. Sus [[habilidades para resolver problemas]] y dedicación nos dieron confianza para afrontar cualquier desafío académico."
+                        },
+                        "fr": {
+                            "title": "Binôme de projet à [[l'Université]]",
+                            "text": "Avoir Adama dans notre équipe de développement a été un atout précieux. Ses [[capacités de résolution de problèmes]] et son dévouement nous ont permis de relever chaque défi académique avec assurance."
+                        },
+                        "ko": {
+                            "title": "[[대학교]] 프로젝트 파트너",
+                            "text": "개발 팀에 Adama가 있다는 것은 정말 든든한 일이었습니다. 그의 [[문제 해결 능력]]과 헌신 덕분에 우리는 모든 학업적 도전을 자신 있게 헤쳐 나갈 수 있었습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "label": "Lucas Bernard",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "img": "images/pictures/testimonial-person-male-2.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Student Ambassador at [[Tech Club]]",
+                            "text": "Collaborating with Adama was a true [[game changer]] for our club's website. His [[technical expertise]] and proactive mindset were absolutely invaluable for us."
+                        },
+                        "es": {
+                            "title": "Embajador Estudiantil en [[Tech Club]]",
+                            "text": "Colaborar con Adama fue un verdadero [[punto de inflexión]] para el sitio web de nuestro club. Su [[experiencia técnica]] y mentalidad proactiva fueron absolutamente invaluables."
+                        },
+                        "fr": {
+                            "title": "Ambassadeur Étudiant au [[Tech Club]]",
+                            "text": "Collaborer avec Adama a été un vrai [[tournant]] pour le site web de notre association. Son [[expertise technique]] et sa proactivité ont été d'une valeur inestimable pour nous."
+                        },
+                        "ko": {
+                            "title": "[[테크 클럽]] 학생 대사",
+                            "text": "Adama와 협업한 것은 우리 클럽 웹사이트의 진정한 [[전환점]]이었습니다. 그의 [[기술 전문성]]과 능동적인 태도는 우리에게 매우 소중한 자산이었습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "label": "Emma Petit",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "img": "images/pictures/testimonial-person-female-2.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Design Student at [[Art School]]",
+                            "text": "Adama CISSE's [[attention to detail]] and his [[creative thinking]] brought a fresh perspective to our design workshops! His UI/UX skills are simply amazing!"
+                        },
+                        "es": {
+                            "title": "Estudiante de Diseño en [[Escuela de Arte]]",
+                            "text": "La [[atención al detalle]] y el [[pensamiento creativo]] de Adama CISSE aportaron una perspectiva fresca a nuestros talleres de diseño. ¡Sus habilidades en UI/UX son increíbles!"
+                        },
+                        "fr": {
+                            "title": "Étudiante en Design à [[l'École d'Art]]",
+                            "text": "L'[[attention aux détails]] et la [[pensée créative]] d'Adama CISSE ont apporté une perspective nouvelle à nos ateliers de design ! Ses compétences en UI/UX sont tout simplement incroyables !"
+                        },
+                        "ko": {
+                            "title": "[[미술 학교]] 디자인 전공생",
+                            "text": "Adama CISSE의 [[세심한 배려]]와 [[창의적인 사고]]가 우리의 디자인 워크숍에 신선한 시각을 가져왔습니다! 그의 UI/UX 실력은 정말 놀랍습니다!"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {
+                    "title": "Personal {{interests}}"
+                },
+                "es": {
+                    "title": "Intereses {{personales}}"
+                },
+                "fr": {
+                    "title": "Intérêts {{personnels}} "
+                },
+                "ko": {
+                    "title": "개인 {{관심사}}"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Coding}} with AI",
+                            "text": "Exploring the boundaries of development using advanced AI tools."
+                        },
+                        "fr": {
+                            "title": "{{Coder}} avec l'IA",
+                            "text": "Explorer les frontières du développement en utilisant des outils d'IA avancés."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-palette",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Arts}} & Illustration",
+                            "text": "Practicing digital art and exploring new styles."
+                        },
+                        "es": {
+                            "title": "{{Arte}} y Ilustración",
+                            "text": "Practicando arte digital y explorando nuevos estilos."
+                        },
+                        "fr": {
+                            "title": "{{Arts}} & Illustration",
+                            "text": "Pratiquer l'art numérique et explorer de nouveaux styles."
+                        },
+                        "ko": {
+                            "title": "{{예술}} 및 일러스트레이션",
+                            "text": "디지털 아트를 연습하고 새로운 스타일을 탐험하기."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-dumbbell",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Sports}} & Bodybuilding",
+                            "text": "Staying active and disciplined through regular physical training."
+                        },
+                        "fr": {
+                            "title": "{{Sport}} & Musculation",
+                            "text": "Rester actif et discipliné grâce à un entraînement physique régulier."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-window-restore",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{UX}} design",
+                            "text": "Studying user experience principles."
+                        },
+                        "es": {
+                            "title": "Diseño {{UX}}",
+                            "text": "Estudiando los principios de la experiencia del usuario."
+                        },
+                        "fr": {
+                            "title": "Conception {{UX}}",
+                            "text": "Étudier les principes de l'expérience utilisateur."
+                        },
+                        "ko": {
+                            "title": "{{UX}} 디자인",
+                            "text": "사용자 경험 원칙을 공부하기."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-book",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Reading}}",
+                            "text": "Expanding knowledge and imagination through books."
+                        },
+                        "fr": {
+                            "title": "{{Lecture}}",
+                            "text": "Élargir mes connaissances et mon imagination à travers les livres."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-pen-nib",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Writing}}",
+                            "text": "Expressing ideas and stories through the written word."
+                        },
+                        "fr": {
+                            "title": "{{Écriture}}",
+                            "text": "Exprimer des idées et des histoires à travers les mots."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

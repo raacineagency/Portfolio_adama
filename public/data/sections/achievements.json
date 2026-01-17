@@ -1,0 +1,377 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Awards",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            },
+            "es": {
+                "title_short": "Logros",
+                "title_short_nav": "Logros",
+                "title_long_prefix": "Aquí están mis",
+                "title_long": "{{Logros}} Profesionales"
+            },
+            "fr": {
+                "title_short": "Réalis",
+                "title_short_nav": "Réalisations",
+                "title_long_prefix": "Voici",
+                "title_long": "Mes {{Réalisations}}"
+            },
+            "ko": {
+                "title_short": "경력 성과",
+                "title_short_nav": "경력 성과",
+                "title_long_prefix": "다음은",
+                "title_long": "{{경력 성과}}입니다"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": {
+                    "title": "Certifications"
+                },
+                "es": {
+                    "title": "Certificaciones"
+                },
+                "fr": {
+                    "title": "Certifications"
+                },
+                "ko": {
+                    "title": "인증서"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-life-ring",
+                    "faIconColors": {
+                        "bg": "#326CE5",
+                        "fill": "#EEE"
+                    },
+                    "date": {
+                        "year": 2020,
+                        "month": 12
+                    },
+                    "link": {
+                        "href": "https://www.linuxfoundation.org/",
+                        "tooltipString": "see_certification"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "The {{Linux Foundation}}",
+                            "text": "Certified Kubernetes Administrator (CKA)"
+                        },
+                        "es": {
+                            "text": "Administrador de Kubernetes Certificado (CKA)"
+                        },
+                        "fr": {
+                            "text": "Administrateur Kubernetes Certifié (CKA)"
+                        },
+                        "ko": {
+                            "text": "Kubernetes 인증 관리자 (CKA)"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-aws",
+                    "faIconColors": {
+                        "bg": "#FFD700",
+                        "fill": "#111"
+                    },
+                    "date": {
+                        "year": 2021,
+                        "month": 5
+                    },
+                    "link": {
+                        "href": "https://www.aws.com/",
+                        "tooltipString": "see_certification"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Amazon}} Web Services",
+                            "text": "AWS Certified Solutions Architect – Associate"
+                        },
+                        "es": {
+                            "text": "Arquitecto de Soluciones Certificado por AWS - Asociado"
+                        },
+                        "fr": {
+                            "text": "Architecte de Solutions Certifié AWS - Associé"
+                        },
+                        "ko": {
+                            "text": "AWS 공인 솔루션 아키텍트 - 준회원"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": {
+                        "bg": "#007396",
+                        "fill": "#EEE"
+                    },
+                    "date": {
+                        "year": 2022,
+                        "month": 5
+                    },
+                    "link": {
+                        "href": "https://www.oracle.com/",
+                        "tooltipString": "see_certification"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Oracle}}",
+                            "text": "Certified Java Developer"
+                        },
+                        "es": {
+                            "text": "Desarrollador Java Certificado"
+                        },
+                        "fr": {
+                            "text": "Développeur Java Certifié"
+                        },
+                        "ko": {
+                            "text": "공인 자바 개발자"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {
+                        "bg": "#47A248",
+                        "fill": "#EEE"
+                    },
+                    "date": {
+                        "year": 2023,
+                        "month": 8
+                    },
+                    "link": {
+                        "href": "https://www.mongodb.com/",
+                        "tooltipString": "see_certification"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{MongoDB}} University",
+                            "text": "MongoDB Certified Developer"
+                        },
+                        "es": {
+                            "text": "Desarrollador Certificado de MongoDB"
+                        },
+                        "fr": {
+                            "text": "Développeur Certifié MongoDB"
+                        },
+                        "ko": {
+                            "text": "MongoDB 공인 개발자"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-bullhorn",
+                    "faIconColors": {
+                        "bg": "#FF9900",
+                        "fill": "#EEE"
+                    },
+                    "date": {
+                        "year": 2023,
+                        "month": 6
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Université {{Cheikh Hamidou Kane}}",
+                            "text": "Certificate in Digital Marketing & Growth Hacking"
+                        },
+                        "fr": {
+                            "text": "Certificat en Marketing Digital & Growth Hacking"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {
+                        "bg": "#00CCFF",
+                        "fill": "#EEE"
+                    },
+                    "date": {
+                        "year": 2023,
+                        "month": 6
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Université {{Cheikh Hamidou Kane}}",
+                            "text": "Certificate in Personal Development & Leadership"
+                        },
+                        "fr": {
+                            "text": "Certificat en Développement Personnel & Leadership"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": {
+                    "title": "Awards"
+                },
+                "es": {
+                    "title": "Premios"
+                },
+                "fr": {
+                    "title": "Récompenses"
+                },
+                "ko": {
+                    "title": "수상 내역"
+                }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {
+                        "year": 2023,
+                        "month": 7
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Best Creative Project}} – Infographics Portfolio",
+                            "province": "Saint-Louis",
+                            "country": "Senegal",
+                            "institution": "UGB",
+                            "text": "Awarded for the most creative digital portfolio during the Computer Graphics degree. Recognized for technical mastery and visual storytelling."
+                        },
+                        "fr": {
+                            "title": "{{Meilleur Projet Créatif}} – Portfolio Infographie",
+                            "province": "Saint-Louis",
+                            "country": "Sénégal",
+                            "institution": "UGB",
+                            "text": "Récompensé pour le portfolio numérique le plus créatif lors de la licence en infographie. Reconnu pour la maîtrise technique et la narration visuelle."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {
+                        "year": 2024,
+                        "month": 6
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Top Student}} – Web Development",
+                            "province": "Béziers",
+                            "country": "France",
+                            "institution": "IUT de Béziers",
+                            "text": "Recognition for academic excellence and technical skills in Full Stack Web development during the BUT program."
+                        },
+                        "fr": {
+                            "title": "{{Major de Promotion}} – Développement Web",
+                            "province": "Béziers",
+                            "country": "France",
+                            "institution": "IUT de Béziers",
+                            "text": "Reconnaissance pour l'excellence académique et les compétences techniques en développement Web Full Stack lors du programme BUT."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {
+                        "year": 2022,
+                        "month": 5
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Graphic Design Award}} – Local Hackathon",
+                            "province": "Dakar",
+                            "country": "Senegal",
+                            "institution": "Digital Community",
+                            "text": "First prize for the best UI/UX design and brand identity created during a 48h intensive design competition."
+                        },
+                        "fr": {
+                            "title": "{{Prix Design Graphique}} – Hackathon Local",
+                            "province": "Dakar",
+                            "country": "Sénégal",
+                            "institution": "Digital Community",
+                            "text": "Premier prix pour le meilleur design UI/UX et l'identité de marque créés lors d'une compétition de design intensive de 48h."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "date": {
+                        "year": 2021,
+                        "month": 7
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Excellence Award}} – Humanities",
+                            "province": "Dakar",
+                            "country": "Senegal",
+                            "institution": "Lycée L.S. Senghor",
+                            "text": "Awarded for outstanding performance in analytical subjects and communication during high school."
+                        },
+                        "fr": {
+                            "title": "{{Prix d'Excellence}} – Sciences Humaines",
+                            "province": "Dakar",
+                            "country": "Sénégal",
+                            "institution": "Lycée L.S. Senghor",
+                            "text": "Récompensé pour des performances exceptionnelles dans les matières analytiques et en communication au lycée."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

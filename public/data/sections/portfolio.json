@@ -1,0 +1,559 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "fr": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Découvrez",
+                "title_long": "Mon {{Portfolio}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_ecommerce": "E-Commerce",
+                    "category_coaching": "Coaching",
+                    "category_agencies": "Agencies",
+                    "category_innovative": "Innovative",
+                    "category_social": "Social & Apps"
+                },
+                "fr": {
+                    "category_all": "Tout",
+                    "category_ecommerce": "E-Commerce",
+                    "category_coaching": "Coaching",
+                    "category_agencies": "Agences",
+                    "category_innovative": "Innovant",
+                    "category_social": "Social & Apps"
+                }
+            },
+            "settings": {
+                "categorize_by": [
+                    "category_ecommerce",
+                    "category_coaching",
+                    "category_agencies",
+                    "category_innovative",
+                    "category_social"
+                ],
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_social",
+                    "img": "images/pictures/logo_communilinkup.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://communi-link.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CommuniLink",
+                            "text": "Complete <b>social network</b> designed for international students to communicate, share resources, and support each other. Features messaging, post sharing, groups, and event organization.",
+                            "tags": [
+                                "MERN",
+                                "Social Network",
+                                "Students"
+                            ]
+                        },
+                        "fr": {
+                            "title": "CommuniLink",
+                            "text": "<b>Réseau social</b> complet conçu pour permettre aux étudiants étrangers de communiquer, partager des ressources et s'entraider. Comprend la messagerie, le partage de publications, des groupes et l'organisation d'événements.",
+                            "tags": [
+                                "MERN",
+                                "Réseau Social",
+                                "Étudiants"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_coaching",
+                    "img": "images/pictures/logo_youbeyou.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://youbeyou.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "YouBeYou",
+                            "text": "Comprehensive <b>coaching platform</b> with integrated podcast streaming, allowing users to access motivational content, book sessions, and listen to exclusive podcasts directly on the site.",
+                            "tags": [
+                                "MERN",
+                                "Coaching",
+                                "Podcasts"
+                            ]
+                        },
+                        "fr": {
+                            "title": "YouBeYou",
+                            "text": "Plateforme de <b>coaching complète</b> avec streaming de podcasts intégré, permettant aux utilisateurs d'accéder à du contenu motivationnel, de réserver des sessions et d'écouter des podcasts exclusifs.",
+                            "tags": [
+                                "MERN",
+                                "Coaching",
+                                "Podcasts"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_ecommerce",
+                    "img": "images/pictures/logo_moderna.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://moderna-xi.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Moderna",
+                            "text": "Complete <b>e-commerce platform</b> featuring product catalog, shopping cart, secure payment integration, and order management system. Built with modern technologies for a seamless shopping experience.",
+                            "tags": [
+                                "MERN",
+                                "E-Commerce",
+                                "Payment"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Moderna",
+                            "text": "Plateforme <b>e-commerce complète</b> avec catalogue de produits, panier d'achat, intégration de paiement sécurisé et système de gestion des commandes.",
+                            "tags": [
+                                "MERN",
+                                "E-Commerce",
+                                "Paiement"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_ecommerce",
+                    "img": "images/pictures/jakiya.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://jakiya.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Jakiya",
+                            "text": "Full-featured <b>online store</b> with advanced product filtering, user authentication, wishlist functionality, and responsive design optimized for mobile commerce.",
+                            "tags": [
+                                "MERN",
+                                "E-Commerce",
+                                "Mobile"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Jakiya",
+                            "text": "<b>Boutique en ligne</b> complète avec filtrage avancé de produits, authentification utilisateur, liste de souhaits et design responsive optimisé pour le commerce mobile.",
+                            "tags": [
+                                "MERN",
+                                "E-Commerce",
+                                "Mobile"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_ecommerce",
+                    "img": "images/pictures/logo_maya.jpeg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://maya-boutique.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Maya Boutique",
+                            "text": "E-commerce platform dedicated to <b>Senegalese products</b>, showcasing local craftsmanship and culture. Features multi-category browsing, secure checkout, and international shipping.",
+                            "tags": [
+                                "MERN",
+                                "Senegal",
+                                "Artisanat"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Maya Boutique",
+                            "text": "Plateforme e-commerce dédiée aux <b>produits sénégalais</b>, mettant en valeur l'artisanat et la culture locale. Navigation multi-catégories, paiement sécurisé et expédition internationale.",
+                            "tags": [
+                                "MERN",
+                                "Sénégal",
+                                "Artisanat"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_coaching",
+                    "img": "images/pictures/elite-logo.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://elite-consulting-phi.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Elite Consulting",
+                            "text": "Professional <b>coaching agency</b> website featuring AI-powered chatbot for client support, appointment booking system, and personalized coaching programs.",
+                            "tags": [
+                                "MERN",
+                                "AI",
+                                "Coaching"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Elite Consulting",
+                            "text": "Site web d'agence de <b>coaching professionnel</b> avec chatbot IA pour le support client, système de réservation et programmes de coaching personnalisés.",
+                            "tags": [
+                                "MERN",
+                                "IA",
+                                "Coaching"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_agencies",
+                    "img": "images/pictures/logo_académie.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://2-a-acad-mie.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "2A Académie",
+                            "text": "<b>Educational platform</b> website combining modern frontend with robust backend, offering course catalog, student registration, and learning resources management.",
+                            "tags": [
+                                "Vue.js",
+                                "React",
+                                "Next.js",
+                                "MongoDB"
+                            ]
+                        },
+                        "fr": {
+                            "title": "2A Académie",
+                            "text": "Site web de <b>plateforme éducative</b> combinant un frontend moderne avec un backend robuste, offrant un catalogue de cours et la gestion des ressources pédagogiques.",
+                            "tags": [
+                                "Vue.js",
+                                "React",
+                                "Next.js",
+                                "MongoDB"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_agencies",
+                    "img": "images/pictures/logo raacine.jpg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://raacine-agency.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Raacine Agency",
+                            "text": "Complete website for my own <b>digital communication agency</b>, showcasing services, portfolio, team presentation, and integrated contact system for client acquisition.",
+                            "tags": [
+                                "MERN",
+                                "Agency",
+                                "Portfolio"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Raacine Agency",
+                            "text": "Site web complet pour ma propre <b>agence de communication digitale</b>, présentant les services, le portfolio, l'équipe et un système de contact intégré.",
+                            "tags": [
+                                "MERN",
+                                "Agence",
+                                "Portfolio"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_agencies",
+                    "img": "images/pictures/freelance.webp",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.virtual-hand.com/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Virtual Hand",
+                            "text": "Full-stack <b>web application</b> for a communication agency, featuring portfolio showcase, client management system, and service presentation with dynamic content management.",
+                            "tags": [
+                                "MERN",
+                                "Agency",
+                                "CMS"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Virtual Hand",
+                            "text": "Application web <b>full-stack</b> pour une agence de communication, comprenant une vitrine de portfolio, un système de gestion client et une présentation de services.",
+                            "tags": [
+                                "MERN",
+                                "Agence",
+                                "CMS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "categoryId": "category_innovative",
+                    "img": "images/pictures/logo_joxeel.jpg",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://joxeel-site-web.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Joxeel",
+                            "text": "Innovative <b>web platform</b> for a groundbreaking project with the Senegalese government, featuring secure data management and user-friendly interface for public services.",
+                            "tags": [
+                                "MERN",
+                                "Government",
+                                "Innovation"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Joxeel",
+                            "text": "Plateforme web <b>innovante</b> pour un projet révolutionnaire avec l'État du Sénégal, comprenant une gestion sécurisée des données et une interface conviviale.",
+                            "tags": [
+                                "MERN",
+                                "Gouvernement",
+                                "Innovation"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "categoryId": "category_innovative",
+                    "img": "images/pictures/technosoft.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Fiscal Trust Infrastructure",
+                            "text": "Enterprise-grade <b>fiscal trust infrastructure</b> application featuring advanced authentication with Keycloak, headless CMS with Directus, containerized deployment with Kubernetes, and AI-powered data processing. <i>(In Development)</i>",
+                            "tags": [
+                                "Directus",
+                                "Keycloak",
+                                "Kubernetes",
+                                "Next.js",
+                                "Python"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Infrastructure de Confiance Fiscale",
+                            "text": "Application d'<b>infrastructure de confiance fiscale</b> de niveau entreprise avec authentification avancée via Keycloak, CMS headless avec Directus, déploiement conteneurisé avec Kubernetes. <i>(En développement)</i>",
+                            "tags": [
+                                "Directus",
+                                "Keycloak",
+                                "Kubernetes",
+                                "Next.js",
+                                "Python"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "categoryId": "category_social",
+                    "img": "images/pictures/125254_982_Espace-famille.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://espace-familial.vercel.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Espace Familial",
+                            "text": "<b>Family project management</b> application designed for personal use, featuring task assignment, shared calendar, budget tracking, and real-time collaboration powered by Supabase.",
+                            "tags": [
+                                "MERN",
+                                "Supabase",
+                                "Family"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Espace Familial",
+                            "text": "Application de <b>gestion de projets familiaux</b> conçue pour un usage personnel, comprenant l'attribution de tâches, un calendrier partagé et la collaboration en temps réel.",
+                            "tags": [
+                                "MERN",
+                                "Supabase",
+                                "Famille"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
