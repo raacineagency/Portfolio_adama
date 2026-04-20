@@ -11,11 +11,10 @@
             "localized_name_stylized": " [[Adama {{CISSE}}]]",
             "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
-                "Backend Developer",
-                "Frontend Developer",
-                "Computer Graphics Designer",
-                "Graphic Designer",
-                "UI/UX Designer"
+                "Data Engineer",
+                "Ingénieur IA",
+                "Web Developer",
+                "2D-3D Computer Graphics Designer"
             ],
             "name_pronunciation_ipa": "",
             "name_pronunciation_audio_url": ""
@@ -25,11 +24,10 @@
             "localized_name_stylized": " [[Adama {{CISSE}}]]",
             "status_message_available_for_freelance": "Disponible pour freelance !",
             "roles": [
-                "Développeur Backend",
-                "Développeur Frontend",
-                "Infographiste",
-                "Graphiste",
-                "Designer UI/UX"
+                "Data Engineer",
+                "Ingénieur IA",
+                "Développeur Web",
+                "Infographiste 2D-3D"
             ]
         }
     }
