@@ -2,7 +2,7 @@
     <img src="docs/assets/logo-large.png" width="120">
 </p>
 
-# [React Portfolio](https://ryanbalieiro.github.io/react-portfolio-template/) by Ryan Balieiro
+# Portfolio Adama CISSE - React
 
 A sleek, futuristic portfolio template for developers – built with **React** and **Bootstrap 5**.
 
